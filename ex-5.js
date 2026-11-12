@@ -1,3 +1,6 @@
 //Exercise #5: Shopping and Discount
 
-// Start coding here
+let totalProduct = 27000;
+let discoutAmount = totalProduct *(25/100);
+let finalPrice = totalProduct - discoutAmount;
+
