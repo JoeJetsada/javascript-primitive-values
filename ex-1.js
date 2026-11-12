@@ -3,3 +3,8 @@ let day = 30;
 let employeeName;
 let productName = undefined;
 let order;
+
+console.log(day);
+console.log(employeeName);//undefined
+console.log(productName);//undefined
+console.log(order);//undefined
