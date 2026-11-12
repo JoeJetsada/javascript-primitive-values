@@ -9,4 +9,17 @@ let secondParagraph =
 let thirdParagraph =
   "It was going to rain. The weather forecast didn't say that, but the steel plate in his hip did. He had learned over the years to trust his hip over the weatherman. It was going to rain, so he better get outside and prepare.";
 // Start coding here
-let article;
+
+// ให้รวมข้อความ Paragarph ทั้ง 3 ตัว ลงใน Variable article โดยใช้วิธี Template Literal และ เว้นบรรทัดระหว่างแต่ละ Paragarph ด้วย
+
+let article = `${firstParagraph}\n${secondParagraph}\n${thirdParagraph}`; // ใช้ \n เพื่อเว้นบรรทัด
+
+console.log(article);
+
+let article1 = `${firstParagraph}
+${secondParagraph}
+${thirdParagraph}`;
+
+// อันนี้จะเป็นอีกวิธีในการขึ้นบรรทัดใหม่ โดยตบ enter เพื่อขึ้นบรรทัดใหม่
+ 
+console.log(article1);

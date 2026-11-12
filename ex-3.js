@@ -4,3 +4,8 @@ let totalFileSize = 250000;
 let uploadedSize = 30000;
 
 // Start coding here
+
+// คิดเปอร์เซ็นต์ (จำนวน/จำนวนทั้งหมด) * 100
+let uploadProgress = (uploadedSize / totalFileSize) * 100;
+
+console.log(uploadProgress);
