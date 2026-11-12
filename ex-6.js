@@ -2,5 +2,12 @@
 
 let totalParts = 13000;
 
-let concatSentence;
-let literalSentence;
+// ให้แสดงข้อความ "Total: 13000 Machine parts" โดยใช้การ String Concatenation และ Template Literal
+
+let concatSentence = "Total: " + totalParts + " Machine parts";
+let literalSentence = `Total: ${totalParts} Machine Parts`;
+
+// ** เวลาทำ Template Literal ต้องใช้ `` (backticks)
+
+console.log(concatSentence);
+console.log(literalSentence);
